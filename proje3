@@ -1,0 +1,25 @@
+Binary Search Tree (BST) oluşturmak için sıralı bir dizi kullanılmalıdır. Ancak verilen dizinin sırasız olduğunu görüyorum. Sırasız bir diziden BST oluşturmak için, her eleman sırayla eklenir. Örneğin, verilen diziyi sırayla kullanarak BST'yi oluşturalım:
+
+Eklenen elemanlar ve aşamalar:
+7 (root)
+5 (7'nin solunda)
+1 (5'in solunda)
+8 (7'nin sağına)
+3 (1'in sağına)
+6 (5'in sağına)
+0 (1'in soluna)
+9 (8'in sağına)
+4 (3'ün sağına)
+2 (4'ün soluna)
+
+
+        7
+       / \
+      5   8
+     / \   \
+    1   6   9
+   /   / \
+  0   3   4
+       \
+        2
+
